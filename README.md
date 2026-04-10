@@ -1,16 +1,76 @@
-## Hi there 👋
+## 👋 Hey, I'm Adi
 
-<!--
-**AdiAnteater/AdiAnteater** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🛰️ Building at the intersection of hardware, embedded systems, and intelligent software  
+🚁 Interested in drones, edge AI, and real-world systems  
+⚡ I like turning ideas into working prototypes
 
-Here are some ideas to get you started:
+## ⚡ Fun Facts
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 🧠 I enjoy building AI that runs on edge devices (TinyML, CV)  
+- 🔧 I design both hardware (PCB, FPGA) and software stacks  
+- 🛠️ Can go from schematic → PCB → firmware → deployment
+
+## 🧰 Tech Stack
+
+### 💻 Programming
+Python • C • C++ • Java • JavaScript (React, Node.js) • SQL • NoSQL • PHP
+
+### 🔌 Embedded & Systems
+STM32 • Raspberry Pi • Arduino • FPGA (Spartan-7) • Flight Controllers
+
+### ⚙️ Hardware & Design
+Verilog • VHDL • KiCAD • PCB Design • Vivado • Assembly
+
+### 🧪 CAD & Simulation
+SolidWorks • ANSYS (FEA/CFD) • MATLAB • Simulink
+
+### 🤖 Other
+AI/ML • Computer Vision • Linux/Windows Development • Edge Computing
+
+
+<div align="center">
+
+<svg width="600" height="300" viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#0d1117"/>
+
+  <!-- Radar circle -->
+  <circle cx="300" cy="150" r="100" stroke="#00ffcc" stroke-width="2" fill="none" opacity="0.5"/>
+  <circle cx="300" cy="150" r="70" stroke="#00ffcc" stroke-width="1" fill="none" opacity="0.3"/>
+  <circle cx="300" cy="150" r="40" stroke="#00ffcc" stroke-width="1" fill="none" opacity="0.2"/>
+
+  <!-- Cross lines -->
+  <line x1="200" y1="150" x2="400" y2="150" stroke="#00ffcc" opacity="0.2"/>
+  <line x1="300" y1="50" x2="300" y2="250" stroke="#00ffcc" opacity="0.2"/>
+
+  <!-- Radar sweep -->
+  <line x1="300" y1="150" x2="300" y2="50" stroke="#00ffcc" stroke-width="3">
+    <animateTransform 
+      attributeName="transform"
+      type="rotate"
+      from="0 300 150"
+      to="360 300 150"
+      dur="4s"
+      repeatCount="indefinite"/>
+  </line>
+
+  <!-- Drone (moving dot) -->
+  <circle r="5" fill="#00ffcc">
+    <animateMotion dur="6s" repeatCount="indefinite">
+      <mpath href="#orbit"/>
+    </animateMotion>
+  </circle>
+
+  <!-- Orbit path -->
+  <path id="orbit" d="M300,150 m-80,0 a80,80 0 1,1 160,0 a80,80 0 1,1 -160,0" fill="none"/>
+
+  <!-- Glow effect -->
+  <circle cx="300" cy="150" r="5" fill="#00ffcc">
+    <animate attributeName="r" values="3;6;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="1;0.5;1" dur="2s" repeatCount="indefinite"/>
+  </circle>
+
+</svg>
+
+</div>
